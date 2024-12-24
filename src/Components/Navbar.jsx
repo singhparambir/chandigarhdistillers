@@ -66,7 +66,7 @@ function Navbar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-              Chandigarh Distillers & Bottlers Ltd.{" "}
+              {/* Chandigarh Distillers & Bottlers Ltd.{" "} */}
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {/* <Button sx={{ color: "#fff" }}> Cart</Button> */}

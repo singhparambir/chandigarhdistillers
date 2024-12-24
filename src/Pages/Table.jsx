@@ -15,6 +15,7 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import CustomPagination from "../Components/CustomPagination";
 import * as XLSX from "xlsx";
 import { useNavigate } from "react-router-dom"; 
+import ReusableButton from "../Components/ReusableButton";
 
 const statesList = ["Punjab", "Haryana", "Himachal", "Rajasthan", "Chandigarh"];
 
@@ -347,7 +348,10 @@ export default function CrudDataTable() {
             </Button>
           </Box>
         </Box>
+    
       </Modal>
+      <Box>
+        <ReusableButton label="Page 1" path="/page1" color="primary" />      </Box>
     </>
   );
 }
